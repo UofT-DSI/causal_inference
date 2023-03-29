@@ -1,110 +1,102 @@
-# DSI Course for Bash, Git and GitHub
+# DSI Course for Causal Inference
 
 ## Contents:
-1. [Description](https://github.com/rachaellam/dsi-workshop#description)
-2. [Learning Outcomes](https://github.com/rachaellam/dsi-workshop#learning-outcomes)
-3. [Logistics](https://github.com/rachaellam/dsi-workshop#logistics)
-4. [Marking Scheme](https://github.com/rachaellam/dsi-workshop#marking-scheme)
-5. [Policies](https://github.com/rachaellam/dsi-workshop#policies)
-6. [Folder Structure](https://github.com/rachaellam/dsi-workshop#folder-structure)
-7. [Acknowledgements and Contributions](https://github.com/rachaellam/dsi-workshop#acknowledgements-and-contributions)
+1. [Description](https://github.com/UofT-DSI/08-causal_inference#description)
+2. [Learning Outcomes](https://github.com/UofT-DSI/08-causal_inference#learning-outcomes)
+3. [Logistics](https://github.com/UofT-DSI/08-causal_inference#logistics)
+4. [Assignments and Marking Scheme](https://github.com/UofT-DSI/08-causal_inference#marking-scheme)
+5. [Policies](https://github.com/UofT-DSI/08-causal_inference#policies)
+6. [Folder Structure](https://github.com/UofT-DSI/08-causal_inference#folder-structure)
+7. [Acknowledgements and Contributions](https://github.com/UofT-DSI/08-causal_inference#acknowledgements-and-contributions)
 
 ## Description:
-The course was created by the University of Toronto's Data Science Institute. The beginning of the course will introduce the basic language of Unix shell including how to navigate and manipulate files and directories. Learners will then learn certain commands, how to create scripts and write basic functions using pipes, filters and loops. 
+Causal inference allows us to connect the dots in our data and speak to the cause-and-effect relationship that one thing may have with another. In ideal conditions, a thorough experiment design will be repeatable to a high degree of consistency. In practice, however, many fields that apply data science require some form of cause-and-effect recognition solely from observational data. To do this, it is imperative to understand causality, how to define a causal research question, and what causal models can and cannot tell us from observational data.
 
-The next portion of the course will be dedicated to getting started with version control and GitHub, and how it connects to the ethical discussions of reproducibility. Learners will learn how to set up Git and initialize and utilize repositories, including recording, viewing and undoing changes. They will also learn how to create branches and collaborate with others with shared branches. This course will put it all together and introduce some more advanced commands such as de-bugging and history editing.
-
-Finally, learners will determine how to problem-solve by identifying where the issue is and how to search with Google and Stack Overflow. This will then lead to the topic of reproducibility and how to contribute by commenting code and writing documentation.
-
-This course is designed for those who have a degree in something other than Computer Science/Statistics who are looking to enhance their data science skills for their career.
+The first two sections of this course focus on the why and what of research design, covering key motivations and concepts. The third and fourth sections provide an introduction to the technical side. You will learn how common causal models work, what they are meant to achieve, how to apply them, and perhaps most importantly, their limitations.
 
 ## Learning Outcomes
-Students will know how to...
-1. Access the terminal and write scripts using basic commands, variables, pipes, filters and loops. This will be assessed in Assignment 1.
-2. Use version control to preserve personal work, access and edit pervious code versions, collaborate with others, and find and debug errors. This will be assessed in Assignment 2.
-3. Solve problems independently by identifying issues, researching, or properly formulating questions using components of reproducibility. This will be assessed in both Assignment 1 and Assignment 2.
-4. Synthesize all work within wider discussions of ethics and inequity. Students will actively scrutinize who is and isn't in our datasets and develop knowledge of past abuses of power to better engage their work with ethical considerations. This will be assessed in Assignment 2.
+By the end of the course, learners will be able to:
+1. Apply concepts of research design and causality
+2. Analyze and formulate suitable research questions
+3. Structure a robust experimental study
+4. Evaluate the benefits and drawbacks of causal inference models
+5. Implement common models and techniques
+6. Think critically about causal inference with observational data
 
 ## Logistics
 
 ### Course Contacts
-* Instructor: [**Name**] [Pronouns] [degree]. hyperlinked email
-  * Email etiquette
-  * Other comments 
-* TA: [**Name**] [pronouns] [degree]. hyperlinkedEmail
+* Instructor: **Lorena Almaraz De La Garza** (she/they)
+  * Email: l.almaraz@utoronto.ca
+  * LinkedIn: https://www.linkedin.com/in/lalmaraz/
 
 ### Delivery instructions
-The workshop will be held over three weeks, three days a week. Two of the three days will be 2-hours long and the last day will be 3-hours. Being mindful of online fatigue, there will be one break during each class where students are encouraged to stretch, grab a drink and snacks, or ask any additional questions.
+The course runs synchronously over Zoom. It consists of three classes a week for three weeks, or nine classes in total. Classes are 6 PM - 8 PM EDT on Mondays and Thursdays, and 9 AM - 12 PM EDT on Saturdays. Being mindful of online fatigue, there will be one or two breaks during each class where students are encouraged to stretch, grab a drink and snacks, or ask any additional questions.
+
+Tutorials take place an hour before class on Mondays and Thursdays (5 PM - 6 PM EDT), and a half hour before and after class on Saturday (8:30 AM - 9 AM and 12 PM - 12:30 PM EDT). Tutorials provide additional time to discuss the course content, assignments, and any questions. Attendance is not mandatory but may contribute to participation.
 
 ### Technology Requirements
-1. Camera is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
-
+1. We use RStudio for R examples and Jupyter Notebooks for Python examples, please take the time to ensure you are able to use either of these on your device.
+2. A basic familiarity with either programming language is expected for this course.
 
 ### Lesson Schedule
-| Lesson | Topic                                                                                        | Assignments      | Resources  |
-|--------|----------------------------------------------------------------------------------------------|------------------|------------|
-| 1      | Unix Shell I <br>(introducing the Shell, introductory commands, files and directories)       | [Assignment 1]() | [Slides]() |
-| 2      | Unix Shell II<br>(input/output and pipes/filters)                                            | [Assignment 1]() | [Slides]() |
-| 3      | Unix Shell III<br>(shell scripts, shell functions, parameters, flow control)                 | [Assignment 1]() | [Slides]() |
-| 4      | Version Control and GitHub I<br>(introducing version control and GitHub, basic Git commands) | [Assignment 2]() | [Slides]() |
-| 5      | Version Control and GitHub II<br>(remote repositories; branching)                            | [Assignment 2]() | [Slides]() |
-| 6      | Version Control and GitHub III <br>(collaborating, dealing with conflicts)                   | [Assignment 2]() | [Slides]() |
-| 7      | Problem solve, reproducibility, ethics, inequity                                             | [Assignment 1]() <br> [Assignment 2]() | [Slides]() |
-| 8      | Professional Skills - Industry Case Study                                                    | [Assignment 2]() | [Slides]() |
-| 9      | Data Science Foundations - Review and Practice                                               |                  | [Slides]() |
+Subject to change as required.
 
-## Marking Scheme
-| Assessment       | Weight | Description | Due Date |
-|------------------|--------|-------------|----------|
-| [Assignment 1]() |        |             |          |
-| [Assignment 2]() |        |             |          |
-|                  |        |             |          |
+| Date        | Lesson | Topic                                                                         | Assignments      | Resources  |
+|-------------|--------|-------------------------------------------------------------------------------|------------------|------------|
+| Mon, Apr 3  | 1      | Research Basics I: Designing Research and Research Questions                  |                  | [Slides]() |
+| Thu, Apr 6  | 2      | Research Basics II: Describing Variables, Relationships, and Identification   |                  | [Slides]() |
+| Sat, Apr 8  | 3      | Thinking About Causality: Causal Diagrams, Paths, and Treatment Effects       |                  | [Slides]() |
+| Mon, Apr 10 | 4      | Methods I: Regression, Matching, and Fixed Effects                            |                  | [Slides]() |
+| Thu, Apr 13 | 5      | Methods II: Diff-in-diff, Instrumental Variables, Regression Discontinuity    |                  | [Slides]() |
+| Sat, Apr 15 | 6      | Methods III: Practice                                                         |                  | [Slides]() |
+| Mon, Apr 17 | 7      | Professional Skills I: Causal Inference in Industry                           |                  | [Slides]() |
+| Thu, Apr 20 | 8      | Professional Skills II: Industry Case Study with Kamilah Ebrahim, BCG         |                  | [Slides]() |
+| Sat, Apr 22 | 9      | Review and Practice                                                           |                  | [Slides]() |
+
+## Assignments and Marking Scheme
+| Assessment     | Weight | Description | Due Date  |
+|----------------|--------|-------------|-----------|
+| [Assignment]() |        |             |           |
+| [Assignment]() |        |             |           |
+| [Assignment]() |        |             |           |
+| [Assignment]() |        |             |           |
+| [Assignment]() |        |             |           |
+| Participation()|        |             |           |
+
+Assignments are due before class on the date stated above. Please submit assignments as a PDF by emailing the instructor and using the following format for the subject line: ``DSI: [Assignment #], [Name]``.
 
 ## Policies
-The course is a live-coding class. Students are expected to follow along with the coding, creating files and folders to navigate and manipulate. Students should be active participants while coding and are encouraged to ask questions throughout. Although slides will be available for students to reference, they should be referenced before or after class, as during class will be dedicated to coding with the instructor.
+The course covers research theory, techniques for causal design, and coding examples in R and Python. Learners are encouraged to try to use the language most relevant to their field, even if it's not the language they're most comfortable with. Learners are expected to critically engage with the content, think about practical examples from their specific fields, and ask questions throughout. Should learners need accommodations or flexible arrangements, they are kindly asked to contact the instructor.
 
-**How to submit assignments, late policy, academic integrity.**
+### Zoom
+ 1. Camera is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
+ 2. Please keep your microphone muted unless you are speaking and be mindful of noise in your environment.
+
+### Assignments
+1. Assignments are due before class on the date stated above. Please submit assignments as a PDF by emailing the instructor and using the following format for the subject line: ``DSI: [Assignment #], [Name]``.
+2. There is no penalty for late assignments but justification via email is required. Note that late assignments might negatively impact the learner's progress towards subsequent assignments, however.
+
+### Academic Integrity
+1. Citations are necessary for all works that are not the learner's authorship — this includes code found online; learn more about citations here: https://guides.library.utoronto.ca/c.php?g=251103&p=1741147
+2. Learn more about the University of Toronto's stance on academic integrity here: http://academicintegrity.utoronto.ca/
 
 ## Folder Structure
 Below are the folders contained in this repo with a description of what they contain and information on how to use them.
 
-### 1 *assignments*:
-This folder contains the assignments for the workshop. Students are expected to complete them one week after the content has been delivered.
+### 1. *assignments*:
+This folder contains the assignments for the workshop. Learners are expected to complete them by the established due date.
 
-### 2. *homework*:
-This folder contains homework for students to practice Unix and Git/GitHub workshops. Please complete the Unix Shell homework in the first week, and the Git/GitHub homework in the second.
+### 2. *slides*:
+This folder contains the PDF and PPT versions of the slides.
 
-There are pdf copies of the homework and markdown files, which can be edited. The homework can change based on the amount of content that was completed each day.
-
-Homework is just a suggestion but will help students throughout the workshop, as content is cumulative and will only get more difficult. Unfortunately, there is not enough time to review previous content each class so while this homework is **not** graded, it is highly recommended.
-
-### 3. *lessons*:
-This folder contains the pdf and html version of the slides. Either the pdf slides or the html slides can be used when teaching. If slides are edited to contain any gifs, the instructor will need to use the html slides so that the gifs are active.
-
-pdf slides should be referenced before class to prepare or after class to review. During class will be live-coding, therefore, there is no need to follow them during class. They contain all information that was discussed in class and are a great resource in the future if students need to reassess their knowledge.
-
-### 4. *post-course*:
-This folder contains the exit surveys for students to complete. It holds both the md and docx versions of the survey.
-
-### 5. *slides-resources*:
-This folder contains all editable slides. To edit, download the entire folder, including the *pics* folder as this folder contains the pictures which are relationally referenced in the markdown files.
-
-To change a photo, edit the markdown where photos are referenced.
-
-Example: 
-
-Change `![w:1150 center](pics/github.png)` to `![bg](pics/github.png)`
-
-To add a photo, add photo to the *pics* folder and reference it within the markdown file.
-
-Example:
-
-Added photo labelled "git_commit.png" will be referenced in markdown file as `![w:1000 left](pics/git_commit.png)`
+### 3. *feedback*:
+This folder contains the exit surveys for learners to complete. It holds both the MD and DOCX versions of the survey.
 
 ## Acknowledgements and Contributions
-## Achnowledgements
-* Who helped make theses slides
-* We wish to acknowledge this land on which the University of Toronto operates. For thousands of years it has been the traditional land of the Huron-Wendat, the Seneca, and most recently, the Mississaugas of the Credit River. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land.
+## Acknowledgements
+* Primary textbook for this course: Nick Huntington-Klein, 2021, The Effect: An Introduction to Research Design and Causality, https://theeffectbook.net/
+* We wish to acknowledge this land on which the University of Toronto operates. For thousands of years, it has been the traditional land of the Huron-Wendat, the Seneca, and most recently, the Mississaugas of the Credit River. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land. Visit https://www.whose.land/en/ to learn about the peoples and histories of the place you join us from.
+* The instructor acknowledges her positionality as a light-skinned woman of colour, a Mexican-Canadian, and a person living with an invisible disability, and acknowledges the myriad ways in which these identities have shaped her worldview and relationship to power. Examples shared in this course might be biased toward this lived experience. The instructor trusts the learner to integrate their own positionality as they participate in the course, use examples as a point of reference, and — if they are comfortable doing so — enhance the collective experience by sharing their own reflections and perspectives.
 ### Contributions 
-* `bash-git-github` welcomes issues, enhancement requests, and other contributions. To submit an issue, use the [GitHub
-issues](https://github.com/anjalisilva/bash-git-github/issues).
+* This is the first iteration of the Causal Inference course. We welcome your critical feedback, requests, or other contributions to improve it. To submit an issue, comment on our Feedback session in Padlet (https://padlet.com/lalmaraz2/202304-dsi-causal-inference-b2suuln8se4e4m16) or create a new ticket here: https://github.com/UofT-DSI/08-causal_inference/issues.
