@@ -42,27 +42,27 @@ Tutorials take place an hour before class on Mondays and Thursdays (5 PM - 6 PM 
 ### Lesson Schedule
 Subject to change as required.
 
-| Date        | Lesson | Topic                                                                         | Assignments      | Resources  |
-|-------------|--------|-------------------------------------------------------------------------------|------------------|------------|
-| Mon, Apr 3  | 1      | Research Basics I: Designing Research and Research Questions                  |                  | [Slides]() |
-| Thu, Apr 6  | 2      | Research Basics II: Describing Variables, Relationships, and Identification   |                  | [Slides]() |
-| Sat, Apr 8  | 3      | Thinking About Causality: Causal Diagrams, Paths, and Treatment Effects       |                  | [Slides]() |
-| Mon, Apr 10 | 4      | Methods I: Regression, Matching, and Fixed Effects                            |                  | [Slides]() |
-| Thu, Apr 13 | 5      | Methods II: Diff-in-diff, Instrumental Variables, and Regression Discontinuity    |                  | [Slides]() |
-| Sat, Apr 15 | 6      | Methods III: Practice                                                         |                  | [Slides]() |
-| Mon, Apr 17 | 7      | Professional Skills I: Causal Inference in Industry                           |                  | [Slides]() |
-| Thu, Apr 20 | 8      | Professional Skills II: Industry Case Study with Kamilah Ebrahim, BCG         |                  | [Slides]() |
-| Sat, Apr 22 | 9      | Review and Practice                                                           |                  | [Slides]() |
+| Date        | Lesson | Topic                                                                         | Slides     |
+|-------------|--------|-------------------------------------------------------------------------------|------------|
+| Mon, Apr 3  | 1      | Research Basics I: Designing Research and Research Questions                  | [Slides]() |
+| Thu, Apr 6  | 2      | Research Basics II: Describing Variables, Relationships, and Identification   | [Slides]() |
+| Sat, Apr 8  | 3      | Thinking About Causality: Causal Diagrams, Paths, and Treatment Effects       | [Slides]() |
+| Mon, Apr 10 | 4      | Methods I: Regression, Matching, and Fixed Effects                            | [Slides]() |
+| Thu, Apr 13 | 5      | Methods II: Diff-in-diff, Instrumental Variables, and Regression Discontinuity| [Slides]() |
+| Sat, Apr 15 | 6      | Methods III: Practice                                                         | [Slides]() |
+| Mon, Apr 17 | 7      | Professional Skills I: Causal Inference in Industry                           | [Slides]() |
+| Thu, Apr 20 | 8      | Professional Skills II: Industry Case Study with Kamilah Ebrahim, BCG         | [Slides]() |
+| Sat, Apr 22 | 9      | Review and Practice                                                           | [Slides]() |
 
 ## Assignments and Marking Scheme
-| Assessment     | Weight | Description | Due Date  |
-|----------------|--------|-------------|-----------|
-| [Assignment]() |        |             |           |
-| [Assignment]() |        |             |           |
-| [Assignment]() |        |             |           |
-| [Assignment]() |        |             |           |
-| [Assignment]() |        |             |           |
-| Participation|        |             |           |
+| Assessment      | Weight | Due Date  |
+|-----------------|--------|-----------|
+| [Quiz 1]()      |10      |Sat, Apr 8 |
+| [Assignment 1]()|15      |Mon, Apr 10|
+| [Assignment 2]()|20      |Sat, Apr 15|
+| [Assignment 3]()|30      |Thu, Apr 20|
+| [Quiz 2]()      |10      |Sat, Apr 22|
+| Participation   |15      |           |
 
 Assignments are due before class on the date stated above. Please submit assignments as a PDF by emailing the instructor and using the following format for the subject line: ``DSI: [Assignment #], [Name]``.
 
