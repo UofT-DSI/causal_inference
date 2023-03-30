@@ -48,7 +48,7 @@ Subject to change as required.
 | Thu, Apr 6  | 2      | Research Basics II: Describing Variables, Relationships, and Identification   |                  | [Slides]() |
 | Sat, Apr 8  | 3      | Thinking About Causality: Causal Diagrams, Paths, and Treatment Effects       |                  | [Slides]() |
 | Mon, Apr 10 | 4      | Methods I: Regression, Matching, and Fixed Effects                            |                  | [Slides]() |
-| Thu, Apr 13 | 5      | Methods II: Diff-in-diff, Instrumental Variables, Regression Discontinuity    |                  | [Slides]() |
+| Thu, Apr 13 | 5      | Methods II: Diff-in-diff, Instrumental Variables, and Regression Discontinuity    |                  | [Slides]() |
 | Sat, Apr 15 | 6      | Methods III: Practice                                                         |                  | [Slides]() |
 | Mon, Apr 17 | 7      | Professional Skills I: Causal Inference in Industry                           |                  | [Slides]() |
 | Thu, Apr 20 | 8      | Professional Skills II: Industry Case Study with Kamilah Ebrahim, BCG         |                  | [Slides]() |
@@ -62,7 +62,7 @@ Subject to change as required.
 | [Assignment]() |        |             |           |
 | [Assignment]() |        |             |           |
 | [Assignment]() |        |             |           |
-| Participation()|        |             |           |
+| Participation|        |             |           |
 
 Assignments are due before class on the date stated above. Please submit assignments as a PDF by emailing the instructor and using the following format for the subject line: ``DSI: [Assignment #], [Name]``.
 
@@ -82,16 +82,13 @@ The course covers research theory, techniques for causal design, and coding exam
 2. Learn more about the University of Toronto's stance on academic integrity here: http://academicintegrity.utoronto.ca/
 
 ## Folder Structure
-Below are the folders contained in this repo with a description of what they contain and information on how to use them.
+There are two folders contained in this repo:
 
 ### 1. *assignments*:
 This folder contains the assignments for the workshop. Learners are expected to complete them by the established due date.
 
 ### 2. *slides*:
-This folder contains the PDF and PPT versions of the slides.
-
-### 3. *feedback*:
-This folder contains the exit surveys for learners to complete. It holds both the MD and DOCX versions of the survey.
+This folder contains the PDF and PPT versions of the slides. Slides will be uploaded after class.
 
 ## Acknowledgements and Contributions
 ## Acknowledgements
