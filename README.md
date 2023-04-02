@@ -40,7 +40,7 @@ Tutorials take place an hour before class on Mondays and Thursdays (5 PM - 6 PM 
 2. A basic familiarity with either programming language is expected for this course.
 
 ### Lesson Schedule
-Subject to change as required.
+Subject to change as required. Slides will be uploaded after class.
 
 | Date        | Lesson | Topic                                                                         | Slides     |
 |-------------|--------|-------------------------------------------------------------------------------|------------|
@@ -55,16 +55,22 @@ Subject to change as required.
 | Sat, Apr 22 | 9      | Review and Practice                                                           | [Slides]() |
 
 ## Assignments and Marking Scheme
-| Assessment      | Weight | Due Date  |
-|-----------------|--------|-----------|
-| [Quiz 1]()      |10      |Sat, Apr 8 |
-| [Assignment 1]()|15      |Mon, Apr 10|
-| [Assignment 2]()|20      |Sat, Apr 15|
-| [Assignment 3]()|30      |Thu, Apr 20|
-| [Quiz 2]()      |10      |Sat, Apr 22|
-| Participation   |15      |           |
+| Assessment                                                                                                | Weight | Due Date  | LO         |
+|-----------------------------------------------------------------------------------------------------------|--------|-----------|------------|
+| [Quiz 1](https://github.com/UofT-DSI/08-causal_inference/blob/main/1-assignments/1-Quiz_1.pdf)            |10      |Sat, Apr 8 |1, 6        |
+| [Assignment 1](https://github.com/UofT-DSI/08-causal_inference/blob/main/1-assignments/2-Assignment_1.pdf)|15      |Mon, Apr 10|1, 2, 6     |
+| [Assignment 2](https://github.com/UofT-DSI/08-causal_inference/blob/main/1-assignments/3-Assignment_2.pdf)|20      |Sat, Apr 15|1, 2, 3, 6  |
+| [Assignment 3](https://github.com/UofT-DSI/08-causal_inference/blob/main/1-assignments/4-Assignment_3.pdf)|30      |Thu, Apr 20|1 - 6       |
+| [Quiz 2](https://github.com/UofT-DSI/08-causal_inference/blob/main/1-assignments/5-Quiz_2.pdf)            |10      |Sat, Apr 22|1, 2, 4, 6  |
+| Participation                                                                                             |15      |ONGOING    |1 - 6       |
 
 Assignments are due before class on the date stated above. Please submit assignments as a PDF by emailing the instructor and using the following format for the subject line: ``DSI: [Assignment #], [Name]``.
+
+Assessments are assessed based on:
+ - completeness
+ - suitability of answers
+ - degree of relevance to learner's field
+ - level of critical engagement with the material
 
 ## Policies
 The course covers research theory, techniques for causal design, and coding examples in R and Python. Learners are encouraged to try to use the language most relevant to their field, even if it's not the language they're most comfortable with. Learners are expected to critically engage with the content, think about practical examples from their specific fields, and ask questions throughout. Should learners need accommodations or flexible arrangements, they are kindly asked to contact the instructor.
