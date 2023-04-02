@@ -44,15 +44,15 @@ Subject to change as required. Slides will be uploaded after class.
 
 | Date        | Lesson | Topic                                                                         | Slides     |
 |-------------|--------|-------------------------------------------------------------------------------|------------|
-| Mon, Apr 3  | 1      | Research Basics I: Designing Research and Research Questions                  | [Slides]() |
-| Thu, Apr 6  | 2      | Research Basics II: Describing Variables, Relationships, and Identification   | [Slides]() |
-| Sat, Apr 8  | 3      | Thinking About Causality: Causal Diagrams, Paths, and Treatment Effects       | [Slides]() |
-| Mon, Apr 10 | 4      | Methods I: Regression, Matching, and Fixed Effects                            | [Slides]() |
-| Thu, Apr 13 | 5      | Methods II: Diff-in-diff, Instrumental Variables, and Regression Discontinuity| [Slides]() |
-| Sat, Apr 15 | 6      | Methods III: Practice                                                         | [Slides]() |
-| Mon, Apr 17 | 7      | Professional Skills I: Causal Inference in Industry                           | [Slides]() |
-| Thu, Apr 20 | 8      | Professional Skills II: Industry Case Study with Kamilah Ebrahim, BCG         | [Slides]() |
-| Sat, Apr 22 | 9      | Review and Practice                                                           | [Slides]() |
+| Mon, Apr 3  | 1      | Research Basics I: Designing Research and Research Questions                  |            |
+| Thu, Apr 6  | 2      | Research Basics II: Describing Variables, Relationships, and Identification   |            |
+| Sat, Apr 8  | 3      | Thinking About Causality: Causal Diagrams, Paths, and Treatment Effects       |            |
+| Mon, Apr 10 | 4      | Methods I: Regression, Matching, and Fixed Effects                            |            |
+| Thu, Apr 13 | 5      | Methods II: Diff-in-diff, Instrumental Variables, and Regression Discontinuity|            |
+| Sat, Apr 15 | 6      | Methods III: Practice                                                         |            |
+| Mon, Apr 17 | 7      | Professional Skills I: Causal Inference in Industry                           |            |
+| Thu, Apr 20 | 8      | Professional Skills II: Industry Case Study with Kamilah Ebrahim, BCG         |            |
+| Sat, Apr 22 | 9      | Review and Practice                                                           |            |
 
 ## Assignments and Marking Scheme
 | Assessment                                                                                                | Weight | Due Date  | LO         |
